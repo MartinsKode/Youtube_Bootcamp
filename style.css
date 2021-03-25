@@ -1,0 +1,21 @@
+#top-menu {
+ display: flex;
+ justify-content: space-between; 
+}
+
+#top-menu {
+    height: 56px;
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: space;
+}
+
+.search {
+    display: flex;
+}
+.search input:focus {
+    outline: none;
+    background-color: aliceblue;
+}

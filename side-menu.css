@@ -2,9 +2,13 @@ a {
   text-decoration: none;
 }
 
+svg {
+  fill: #606060;
+}
+
 .side-menu {
   font-size: 14px;
-  width: 17.14em;
+  width: 17.14286em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,11 +33,11 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 2.86em;
+  height: 2.85714em;
   width: 100%;
-  line-height: 1.14em;
+  line-height: 1.14286em;
   color: #000000;
-  padding-left: 1.86em;
+  padding-left: 1.85714em;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-transition: background 0.5s;
@@ -55,10 +59,6 @@ a {
           justify-content: center;
   width: 1.79em;
   margin-right: 1em;
-}
-
-svg {
-  fill: #606060;
 }
 
 .side-menu a:active svg,
@@ -89,8 +89,13 @@ svg {
           align-items: center;
 }
 
+.side-menu--closed :active {
+  color: red;
+}
+
 .side-menu--closed .text {
   font-size: 9px;
+  line-height: 1.11111em;
 }
 
 .side-menu--closed .icon {
